@@ -9,11 +9,11 @@ In your terminal, install the node dependencies:
 
     $ npm install .
 
-Put `jade-nim/bin/` in your `PATH` variable.
+Put `path/to/jade-nim/bin/` in your `PATH` variable so that you can launch `jade-nim.js` from anywhere.
 
 # Usage
 
-    $ jade-nim mytemplate.jade Tmynimrodtype < mytemplate.jade > mytemplate.nim
+    $ jade-nim.js mytemplate.jade Tmynimrodtype < mytemplate.jade > mytemplate.nim
 
 `Tmynimrodtype` is a tuple that you have to define in a file named `jadeface.nim` (which should be accessible in your nimrod path for the compiler to find it). It will be your "interface" between the code you will write and the template renderer.
 
