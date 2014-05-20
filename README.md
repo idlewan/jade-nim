@@ -34,6 +34,7 @@ var list_vars: TList = (choice_pills: @["red", "blue", "silver"],
 echo list.render(list_vars)
 ```
 ```jade
+# list.jade
 if is_the_one
   p Choose wisely, neo.
 else
@@ -45,10 +46,12 @@ ul
 ```
 See the example [Makefile](https://github.com/idlewan/jade-nim/blob/master/example/Makefile) for how to compile.
 
+The Jade template is converted in a purely Nimrod procedure ([see example here](https://github.com/idlewan/jade-nim/blob/master/example/list.nim)).
+
 # Supported features
 Most of Jade features work out-of-the-box, except the following ones:
 
 - `&attributes`
 - mixins with dynamic names
 
-Please report any problems or bug on the issue tracker.
+Please report any problems or bugs on the issue tracker.
