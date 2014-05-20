@@ -1,0 +1,9 @@
+[package]
+name = "jade-nim"
+version = "0.1.0"
+author = "Erwan Ameil"
+description = "Port of the Jade temlate engine for usage with Nimrod programs"
+license = "MIT"
+
+[deps]
+requires = "nimrod >= 0.9.4"

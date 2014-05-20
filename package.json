@@ -1,0 +1,22 @@
+{
+    "name": "jade-nim",
+    "preferGlobal": "true",
+    "description": "Port of the Jade temlate engine for usage with Nimrod programs",
+    "version": "0.1.0",
+    "author": "Erwan Ameil",
+    "license": "MIT",
+    "repository": "git://github.com/idlewan/jade-nim",
+    "main": "./index.js",
+    "bin": {
+        "jade-min": "./bin/jade-min.js"
+    },
+    "dependencies": {
+        "jade": "1.3.x",
+        "character-parser": "1.2.0",
+        "constantinople": "~2.0.0"
+    },
+    "keywords": [
+        "nimrod",
+        "jade"
+    ]
+}
