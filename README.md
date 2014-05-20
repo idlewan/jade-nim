@@ -34,7 +34,7 @@ var list_vars: TList = (choice_pills: @["red", "blue", "silver"],
 echo list.render(list_vars)
 ```
 ```jade
-# list.jade
+// list.jade
 if is_the_one
   p Choose wisely, neo.
 else
